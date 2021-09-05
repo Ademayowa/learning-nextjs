@@ -18,6 +18,7 @@ export async function getStaticPaths() {
 
   return {
     paths,
+    // This looks for the paths(which is the slug)
     fallback: true,
   };
 }
